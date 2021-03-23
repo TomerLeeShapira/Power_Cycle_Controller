@@ -20,7 +20,7 @@ from UI import UI, Add_Device
 from controller import Controller_Connection
 
 cwd = os.getcwd()
-programmer_path = os.path.join('C:/Users/tomer/Documents/Oven_Power_Cycling/Autoconfig_Scripts/')
+programmer_path = os.path.realpath(os.path.join(cwd, '../Autoconfig_Scripts/'))
 DEVICE_LIST_FILE = 'device_list.ini'
 
 

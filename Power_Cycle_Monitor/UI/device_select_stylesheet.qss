@@ -1,0 +1,22 @@
+QPushButton {
+	border-radius: 6px;
+	font: 18pt 'Whitney Semibold';
+}
+QPushButton#start_button {
+	background-color: rgb(39, 217, 46);
+}
+QPushButton#start_button:hover {
+	background-color: rgb(0, 255, 0);
+}
+QPushButton#start_button:pressed {
+	background-color: rgb(200, 255, 200);
+}
+QPushButton#stop_button {
+	background-color: rgb(217, 39, 46);
+}
+QPushButton#stop_button:hover {
+	background-color: rgb(255, 0, 0);
+}
+QPushButton#stop_button:pressed {
+	background-color: rgb(255, 200, 200);
+}

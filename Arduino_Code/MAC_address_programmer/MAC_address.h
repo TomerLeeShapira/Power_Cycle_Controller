@@ -1,0 +1,9 @@
+#ifndef __MAC_ADDRESS_H
+#define __MAC_ADDRESS_H
+
+
+byte mac[] = {
+  0xDE, 0xAD, 0xBE, 0xEF, 0xF0, 0x0D
+};
+
+#endif

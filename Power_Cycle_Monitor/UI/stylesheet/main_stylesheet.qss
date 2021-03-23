@@ -1,0 +1,102 @@
+QMainWindow {
+	font: 'Whitney Medium';
+}
+QWidget {
+	background: rgb(89, 89, 89);
+	color: white;
+	font: 'Whitney Medium';
+}
+Line {
+	background-color: rgb(217, 39, 46);
+}
+QLabel {
+	color: white;
+	font: 10pt 'Whitney Semibold';
+}
+QLabel#header {
+	font: 22pt 'Whitney Medium';
+}
+QLineEdit {
+	border-radius: 6px;
+	background-color: rgb(150, 150, 150);
+	color: white;
+	font: 10pt 'Whitney Semibold';
+	padding: 6px;
+	qproperty-alignment: 'AlignVCenter | AlignHCenter';
+}
+QTextEdit {
+	border-radius: 6px;
+	background-color: black;
+	color: white;
+}
+QComboBox {
+	border: 1px solid rgb(150, 150, 150);
+	background-color: rgb(150, 150, 150);
+	border-radius: 6px;
+	padding: 6px;
+}
+QComboBox QAbstractItemView {
+	background-color: rgb(150, 150, 150);
+	selection-background-color: rgb(89, 89, 89);
+	border-radius: 6px;
+	padding: 6px;
+}
+QPushButton {
+	border-radius: 6px;
+	font: 18pt 'Whitney Semibold';
+	padding: 6px;
+}
+QPushButton#start_button {
+	background-color: rgb(39, 217, 46);
+}
+QPushButton#start_button:hover {
+	background-color: rgb(0, 255, 0);
+}
+QPushButton#start_button:pressed {
+	background-color: rgb(200, 255, 200);
+}
+QPushButton#stop_button {
+	background-color: rgb(217, 39, 46);
+}
+QPushButton#stop_button:hover {
+	background-color: rgb(255, 0, 0);
+}
+QPushButton#stop_button:pressed {
+	background-color: rgb(255, 200, 200);
+}
+QPushButton#connect_button {
+	background-color: rgb(39, 46, 217);
+}
+QPushButton#connect_button:hover {
+	background-color: rgb(0, 0, 255);
+}
+QPushButton#connect_button:pressed {
+	background-color: rgb(200, 200, 255);
+}
+QPushButton#disconnect_button {
+	background-color: rgb(217, 39, 46);
+}
+QPushButton#disconnect_button:hover {
+	background-color: rgb(255, 0, 0);
+}
+QPushButton#disconnect_button:pressed {
+	background-color: rgb(255, 200, 200);
+}
+QPushButton#config_button {
+	background-color: rgb(0, 177, 137);
+}
+QPushButton#config_button:hover {
+	background-color: rgb(0, 200, 160);
+}
+QPushButton#config_button:pressed {
+	background-color: rgb(200, 255, 255);
+}
+QPushButton#add_devices_button {
+	background-color: rgb(0, 177, 137);
+}
+QPushButton#add_devices_button:hover {
+	background-color: rgb(0, 200, 160);
+}
+QPushButton#add_devices_button:pressed {
+	background-color: rgb(200, 255, 255);
+}

@@ -468,7 +468,8 @@ bool start_process()
 
     // Derive the on_time and off_time from duty_cycle.
     // Values are stored in milliseconds. They are passed in as seconds, so convert. 
-    state_machine.on_time = device_parameters.cycle_period*1000*device_parameters.duty_cycle/100;
+    // time*1000/100 = time*10
+    state_machine.on_time = device_parameters.cycle_period*10*device_parameters.duty_cycle;
     state_machine.off_time = device_parameters.cycle_period*1000 - state_machine.on_time;
     
     // Set the state to be RUNNING.

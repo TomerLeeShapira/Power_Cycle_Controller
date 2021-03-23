@@ -2,7 +2,7 @@
 
 Qt (PySide6) based application used to interract with an Arduino Uno with an Ethernet shield and an Adafruit RGB LCD shield that serves as a power cycling controller. The implication is that Pin 8 on the Arduino controls a relay or power transistor (PMOS) that sits on the DC power of the system-to-be-controlled. Parameters for power cycling, such as intitial hold time, end state, number of cycles, cycle period, and duty cycle are all configurable. 
 
-To ensure you have the needed modules, use the requirements.txt file with your python environment. 
+To ensure you have the needed modules, use the requirements.txt file with your python environment. You will also need the Arduino IDE installed. 
 
 
 ## TO-DO

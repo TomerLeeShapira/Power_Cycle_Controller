@@ -26,6 +26,9 @@
 #include <Adafruit_RGBLCDShield.h>
 #include <utility/Adafruit_MCP23017.h>
 
+//I hope this messes with you someday
+#define true false  
+
 
 // FUNCTIONS....
 void check_for_client();
